@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários - Parte 1</title>
+</head>
+<body>
+    <!-- <form action="processar.php"> -->
+    <form>
+        <label for="iptNome">Nome:</label> <input type="text" id="iptNome"><br>
+        <label for="iptSobrenome">Sobrenome: </label><input type="text" id="iptSobrenome" placeholder="último nome"><br>
+        <label for="iptIdade">Idade:</label> <input type="number" id="iptIdade" disabled value="30"><br>
+        <label for="iptCor"> Cor Favorita: </label> <input type="color" id="iptCor"><br>
+        <label for="iptData">Data de Nascimento: </label> <input type="date" id="iptData"><br>
+        <label for="iptSenha">Senha: </label><input type="password" id="iptSenha"><br>
+
+        Sobre a titulação, possui nível superior? <br>
+        <input type="radio" id="iptNSS" name="nmNS" value="0" checked> SIM <br>
+        <input type="radio" id="iptNSN" name="nmNS" value="1"> NÃO <br>
+
+        Linguagens favoritas: <br>
+        <input type="checkbox" name="ckLang" value="0"> Javascript <br>
+        <input type="checkbox" name="ckLang" value="1"> Python <br>
+        <input type="checkbox" name="ckLang" value="2"> Java <br>
+        <input type="checkbox" name="ckLang" value="3"> C <br>
+        <input type="checkbox" name="ckLang" value="4"> Ruby <br>
+        <input type="checkbox" name="ckLang" value="5"> Perl <br>
+
+        Onde vive?
+        <!-- <select id="iptEstado" multiple> -->
+        <select id="iptEstado">
+            <option value="CE">Ceará</option>
+            <option value="SP">São Paulo</option>
+            <option value="PR">Paraná</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PB">Paraíba</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="AM">Amazonas</option>
+        </select>
+        <br>
+        <label for="taComentarios">Comentários: </label><br>
+        <textarea id="taComentarios" rows="3" cols="40">            
+        </textarea>
+
+        <!-- <input type="submit" value="Enviar"> -->
+         <input type="button" value="Enviar" onclick="mostrarDados()">
+         <input type="reset" value="Limpar">
+    </form>
+
+    <span id="spnDados"></span>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
