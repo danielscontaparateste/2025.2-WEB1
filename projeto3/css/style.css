@@ -1,0 +1,35 @@
+body {
+    background-color:cadetblue;
+    background-image: url("../images/ifce900x331.jpg");
+    /* background-size: contain; */
+    background-size: 200px auto;
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: repeat; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom;
+    
+}
+
+h1 {
+    background-color: white;
+    text-align: center;
+}
+
+p {
+    font-style: italic;
+    /* text-decoration: underline; */
+}
+
+span {
+    font-weight: bold;
+}
+
+#paragrafo3{
+    color: red;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16pt;
+}
