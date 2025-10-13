@@ -10,18 +10,44 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: right bottom;
+    text-align: justify;
     
 }
 
 h1 {
     background-color: white;
     text-align: center;
+    font-variant: small-caps;
+    letter-spacing: 15px;
 }
 
-p {
+h2,h3,h4{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 50%;
+    border-radius: 25px;
+    border: 2px solid white;
+   
+}
+
+/* h3{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h4{
+    background-color: black;
+    color: white;
+    text-align: center;
+} */
+
+p { 
     font-style: italic;
     /* text-decoration: underline; */
-}
+    text-indent: 30px;
+}  
 
 span {
     font-weight: bold;
@@ -32,4 +58,14 @@ span {
     background-color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 16pt;
+    text-align: right;
+    text-decoration: line-through;
+    /* text-decoration: overline; */
 }
+
+#paragrafo1{
+    word-spacing: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+

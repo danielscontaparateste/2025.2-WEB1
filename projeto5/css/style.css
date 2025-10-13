@@ -1,0 +1,32 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+#picture1{
+    border: 2px solid black;
+    /* width: 100%; */
+    height: 200px;
+    /* overflow: scroll; */
+    /* overflow: hidden; */
+    float: left;
+    margin: 0px 10px 10px 10px;
+}
+
+#picture2{
+    border: 2px solid black;
+    /* width: 100%; */
+    height: 200px;
+    /* overflow: scroll; */
+    /* overflow: hidden; */
+    float: right;
+    
+}
+
+#ifceLogo{
+    height: 200px;
+}
+
+p#p2{
+    /* clear: left; */
+    clear: both;
+}
